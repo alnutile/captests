@@ -1,0 +1,4 @@
+captests
+========
+
+Test capistrano recipes
