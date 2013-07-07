@@ -1,7 +1,7 @@
 <VirtualHost *:80>
   ServerName <%= domain %>
-  DocumentRoot /var/www/<%= application %>/current/public 
-  <Directory /var/www/<%= application %>/current/public/>
+  DocumentRoot /var/www/<%= application %>/current/ 
+  <Directory /var/www/<%= application %>/current/>
     AllowOverride all
     Options -MultiViews
   </Directory>

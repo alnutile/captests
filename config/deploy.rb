@@ -8,7 +8,7 @@ server "75.98.173.74", :web, :app, :db, primary: true
 set :user, "deploy"
 set :domain, "captests.stagingarea.us"
 set :application, "captests"
-set :deploy_to, "/var/www/#{application}"
+set :deploy_to, "/var/www/#{application}/app"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
