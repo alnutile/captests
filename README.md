@@ -1,4 +1,3 @@
 captests
 ========
-
 Test capistrano recipes
